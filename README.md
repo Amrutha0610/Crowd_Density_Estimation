@@ -42,6 +42,7 @@ models/                                     # Saved weights/checkpoints
 pip install numpy pandas matplotlib opencv-python tensorflow
 ```
 (or PyTorch if used in the notebook)
+
 2. Open the Notebook
 ```bash
 jupyter notebook Crowd_density_estimation_project.ipynb"
