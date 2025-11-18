@@ -1,10 +1,10 @@
-#Crowd Density Estimation using Deep Learning
-📌 Overview
+# Crowd Density Estimation using Deep Learning
+## Overview
 This project focuses on crowd counting and density map estimation using deep learning. The goal is to estimate the number of people in crowded scenes by generating pixel-level density maps from images. The notebook walks through data preprocessing, model building, training, and visualization of predicted density maps.
 This project demonstrates strong skills in computer vision, convolutional neural networks (CNNs), image preprocessing, and model evaluation.
 
-🎯 Key Features
-✔️ Density Map Generation
+## 🎯 Key Features
+### ✔️ Density Map Generation
 
 
 Converts ground-truth dot annotations into continuous density maps
@@ -13,7 +13,7 @@ Converts ground-truth dot annotations into continuous density maps
 Uses Gaussian filters for realistic spatial distribution
 
 
-✔️ Deep Learning Model for Crowd Counting
+### ✔️ Deep Learning Model for Crowd Counting
 
 
 CNN-based architecture (can be customized: MCNN, CSRNet, VGG-based, etc.)
@@ -25,7 +25,7 @@ Learns to regress pixel-wise density values
 Outputs both count and density heatmap
 
 
-✔️ End-to-End Workflow
+### ✔️ End-to-End Workflow
 
 
 Load and preprocess dataset
@@ -41,7 +41,7 @@ Visualize predictions vs ground truth
 
 
 
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 
 
 Python 3.x
@@ -60,15 +60,15 @@ Matplotlib / Seaborn — Visualization
 
 
 
-📂 Project Structure
-Crowd_density_estimation_project.ipynb     # Main notebook
+## 📂 Project Structure
+''' bash Crowd_density_estimation_project.ipynb     # Main notebook
 data/
  ├── images/                               # Input crowd images
  ├── annotations/                          # Dot annotation files
  └── density_maps/                         # Generated target maps (optional)
 models/                                     # Saved weights/checkpoints
 
-
+'''
 🚀 How to Run
 1. Install dependencies
 pip install numpy pandas matplotlib opencv-python tensorflow
