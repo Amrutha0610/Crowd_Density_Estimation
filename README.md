@@ -1,4 +1,4 @@
-👥 Crowd Density Estimation using Deep Learning
+#Crowd Density Estimation using Deep Learning
 📌 Overview
 This project focuses on crowd counting and density map estimation using deep learning. The goal is to estimate the number of people in crowded scenes by generating pixel-level density maps from images. The notebook walks through data preprocessing, model building, training, and visualization of predicted density maps.
 This project demonstrates strong skills in computer vision, convolutional neural networks (CNNs), image preprocessing, and model evaluation.
