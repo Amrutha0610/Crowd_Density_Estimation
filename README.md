@@ -61,40 +61,32 @@ Matplotlib / Seaborn — Visualization
 
 
 ## 📂 Project Structure
-''' bash Crowd_density_estimation_project.ipynb     # Main notebook
+
+Crowd_density_estimation_project.ipynb     # Main notebook
 data/
  ├── images/                               # Input crowd images
  ├── annotations/                          # Dot annotation files
  └── density_maps/                         # Generated target maps (optional)
 models/                                     # Saved weights/checkpoints
 
-'''
-🚀 How to Run
+
+## 🚀 How to Run
 1. Install dependencies
 pip install numpy pandas matplotlib opencv-python tensorflow
 
 (or PyTorch if used in the notebook)
 2. Open the Notebook
-jupyter notebook Crowd_density_estimation_project.ipynb
+```bash
+jupyter notebook Crowd_density_estimation_project.ipynb"
 
 3. Run all cells sequentially
 The notebook will guide you through:
+- Loading data
+- Generating density maps
+- Training the model
+- Visualizing predictions
 
-
-Loading data
-
-
-Generating density maps
-
-
-Training the model
-
-
-Visualizing predictions
-
-
-
-📊 Results & Visualizations
+## 📊 Results & Visualizations
 
 
 Density heatmap overlay
