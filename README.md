@@ -61,7 +61,7 @@ The notebook will guide you through:
 - (These appear in the notebook.)
 
 ## 📘 What I Learned
--Preprocessing image datasets for computer vision
+- Preprocessing image datasets for computer vision
 - Building neural networks for regression tasks
 - Generating and validating density maps
 - Evaluating model performance beyond simple accuracy
